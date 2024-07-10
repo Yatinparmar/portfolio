@@ -7,3 +7,5 @@ Custom CSS: Includes custom CSS for personalized styling and layout adjustments.
 Web Fonts: Utilizes web fonts for improved typography.
 
 # Snapshot
+
+![Desktop View](assets/assets/portfolio.png
