@@ -8,4 +8,4 @@ Web Fonts: Utilizes web fonts for improved typography.
 
 # Snapshot
 
-![Desktop View].(assets/assets/portfolio.png)
+![Desktop View](assets/portfolio.png)
