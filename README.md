@@ -4,7 +4,7 @@ This is a personal portfolio webpage template created using Bootstrap, HTML, and
 # Features
 <li>Bootstrap Framework: Built with Bootstrap for a responsive and mobile-first design.</li>
 <li>Custom CSS: Includes custom CSS for personalized styling and layout adjustments.</li>
-<li>iWeb Fonts: Utilizes web fonts for improved typography.</li>
+<li>Web Fonts: Utilizes web fonts for improved typography.</li>
 
 # Snapshot
 
