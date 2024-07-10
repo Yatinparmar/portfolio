@@ -1,0 +1,159 @@
+@font-face {
+    font-family: 'Heebo';
+    src: url('../font/Heebo/Heebo-Regular.woff') format('woff'),
+        url('../font/Heebo/Heebo-Regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+:root {
+    /* --primary: #1b4437 ; */
+    --primary: #0d6efd;
+    --secondary: #314355;
+    --light: #F2F2F2;
+    --dark: #2C3E50;
+}
+#spinner {
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity .5s ease-out, visibility 0s linear .5s;
+    z-index: 99999;
+}
+.spinner-border {
+    width: 3rem !important; 
+    height: 3rem !important;
+}
+#spinner.show {
+    transition: opacity .5s ease-out, visibility 0s linear 0s;
+    visibility: visible;
+    opacity: 1;
+}
+.typed-text::before {
+    content: "Full stack Developer";
+    overflow: hidden;
+    white-space: nowrap;
+    animation: typing 2s steps(20) infinite;
+    display: inline-block;
+  }
+
+  @keyframes typing {
+    from {
+      width: 0;
+    }
+    to {
+      width: 100%;
+    }
+  }
+.designation{
+    height: 22px;
+}
+.display-5 {
+  font-size: calc(1.425rem + 2.1vw);
+  font-weight: 700 !important;
+  line-height: 1.2;
+}
+
+.progress{
+  height: 4px !important;
+}
+/* Services section  */
+.service-item i {
+  width: 75px;
+  height: 75px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--light);
+  color: var(--primary);
+  transition: .5s;
+}
+.service-item{
+  text-align: center;
+}
+.service-item i:hover{
+  background-color: var(--primary);
+  color: var(--light);
+}
+
+.portfolio-item i {
+  opacity: 0;
+  transition: .3s;
+  transition-delay: .3s;
+}
+.text-light {
+  color: #eee !important;
+}
+.portfolio-item .portfolio-btn {
+  position: absolute;
+  width: 0;
+  height: 0;
+  top: 50%;
+  left: 50%;
+  font-size: 90px;
+  background: rgba(44, 62, 80, .9);
+  opacity: 0;
+  transition: .5s;
+}
+
+.form-control{
+  border-radius: 0 !important;
+}
+.btn{
+  border-radius: 0 !important;
+}
+/* .back-to-top{
+justify-items: end !important;
+} */
+
+/* Protfolio */
+.portfolio-item .portfolio-btn {
+  position: absolute;
+  width: 0;
+  height: 0;
+  top: 50%;
+  left: 50%;
+  background: rgba(44, 62, 80, .9);
+  opacity: 0;
+  transition: .5s;
+  font-size: 30px;
+  font-family: 'Heebo' !important;
+  font-weight: bold !important;
+}
+.portfolio-item .portfolio-btn a {
+  text-decoration: none;
+}
+.portfolio-item:hover .portfolio-btn {
+  opacity: 1;
+  width: calc(100% - 60px);
+  height: calc(100% - 60px);
+  top: 30px;
+  left: 30px;
+}
+
+.portfolio-item i {
+  opacity: 0;
+  transition: .3s;
+  transition-delay: .3s;
+}
+.pro-btn{
+  width: auto;
+  box-shadow: none;
+  outline: none;
+  border: none;
+  color: var(--light);
+  font-size: 20px;
+}
+
+.portfolio-item:hover i {
+  opacity: 1;
+}
+form input:focus, form textarea:focus {
+  box-shadow: none !important;
+  }
+  form label, form input,form textarea{
+    color: var(--light) !important;
+  }
+  form label::after{
+    background-color:  transparent!important;
+  }
